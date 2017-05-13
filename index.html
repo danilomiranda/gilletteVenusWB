@@ -1,18 +1,30 @@
 <html>
     <head>
-    <title>Banner Gillete Venus</title>
+    <title>Web Banner Gillete Venus</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   </head>
   <body>
-    <div id="banner">   <img src="./assets/girlTop.png" id="girlTop" class="top"/>
-      <img src="./assets/girlStrip.png" id="girlStrip" class="strip"/>
-      <img src="./assets/girlBottom.png" id="girlBottom" class="bottom"/>
-      <img src="./assets/iceTop.png" id="iceTop" class="top"/>
-      <img src="./assets/ice1.png" id="ice1" class="strip"/>
-      <img src="./assets/ice2.png" id="ice2" class="bottom"/>
-      <img src="./assets/ice3.png" id="ice3" class="edges"/>
+    <div id="banner">
+      <svg width="300px" height="250px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+        <image xlink:href="./assets/girlTop.png" `x="0" y="0" width="300" height="250" />
+        <image xlink:href="./assets/girlStrip.png" x="0" y="0" width="300" height="250" />
+        <image xlink:href="./assets/girlBottom.png" x="0" y="0" width="300" height="250" />
+        <image xlink:href="./assets/iceTop.png" id="iceTop" />
+        <image xlink:href="./assets/ice1.png" id="ice1" />
+        <image xlink:href="./assets/ice2.png" id="ice2" />
+        <image xlink:href="./assets/ice3.png" id="ice3" />
+        <image xlink:href="./assets/razor.png" x="-213" width="214" height="569" id="razor"/>
+        <image xlink:href="./assets/logo.png" width="300" height="250" />
+        <image xlink:href="./assets/razorEnding.png" x="-100" y="91" id="razor-ending" />
+        <image xlink:href="./assets/cta.png" y="225" />
+        <path id="pathRazor" class="path" d="M0.6,0.7c0,0,168,145,300,145s300-145,300-145" />
+        <path id="pathRazorFinish" class="path" d="M600.6,0.7c0,0-168,145-300,145S0.6,0.7,0.6,0.8" />
+      </svg>
+      <a class="overlay-link" href="http://www.gillettevenus.com/en-us" target="_blank"></a>
     </div>
   </body>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <script type="text/javascript" src="./assets/js/TweenMax.min.js"></script>
+  <!-- VERSION FREE TO BE USED JUST ON LOCALHOST OR CODEPEN -->
+  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js "></script>
   <script type="text/javascript" src="./assets/js/main.js"></script>
 </html>
